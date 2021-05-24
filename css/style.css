@@ -1,0 +1,156 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 13px;
+	line-height: 1.6;
+}
+p
+{
+	  color: #616161;
+}
+.container
+{
+	width: 1100px;
+	margin: auto;
+}
+header
+{
+	display: flex;
+	padding: 10px 0;
+	justify-content: space-between;
+	align-items: center;
+}
+.menu
+{
+	flex-grow: 1;
+	margin-left: 15px;
+	font-size: 14px;
+}
+ul
+{
+	list-style: none;
+}
+a
+{
+	text-decoration: none;
+}
+nav ul li
+{
+	display: inline;
+}
+nav ul li a
+{
+	padding: 10px;
+	color: #000;
+}
+.bg1
+{
+	background-image: url(https://i.ibb.co/zGSDGCL/slide1.png);
+	background-position: center 30px;
+	height: 350px;
+	background-color: #e7e7e7;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.servicesbox h3
+{
+	padding: 15px 0;
+}
+.btn
+{
+	color: blue;
+	padding: 10px 0;
+	display: block;
+}
+.services
+{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0;
+}
+.servicesbox
+{
+	flex-basis: 23%;
+}
+.servicesbox img
+{
+	width: 100%;
+}
+.bg2
+{
+	background-image: url(https://i.ibb.co/tBJGPD9/xbox.png);
+	background-position: center 0px;
+	height: 350px;
+	background-color: #e7e7e7;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bg3
+{
+	background-image: url(https://i.ibb.co/72cgtsz/carbon.jpg);
+	background-position: center 0px;
+	height: 350px;
+	background-color: #e7e7e7;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.social
+{
+	padding: 15px 0;
+	display: flex;
+	align-items: center;
+}
+.social img
+{
+	padding: 0px 5px;
+}
+footer
+{
+	background: #f2f2f2;
+    color: #616161;
+    font-size: 13px;
+    padding: 35px 0;
+}
+.footer
+{
+	display: flex;
+	justify-content: space-between;
+}
+.fone h5
+{
+	font-size: 17px;
+	padding: 10px 0;
+}
+.fone ul li 
+{
+	line-height: 1.7;
+}
+.cop
+{
+	padding-top: 25px;
+}
+.content
+{
+	max-width: 450px;
+	padding: 60px;
+}
+.link
+{
+	background: #000;
+	color: #fff;
+	padding: 10px;
+	display: inline-block;
+	margin: 20px 0;
+}
+.bg3content
+{
+	color: #fff;
+	max-width: 550px;
+	padding: 100px;
+}
